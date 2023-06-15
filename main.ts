@@ -155,7 +155,7 @@ assets.animation`myAnim0`,
 300,
 true
 )
-music.play(music.createSoundEffect(WaveShape.Sine, 5000, 3718, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+music.play(music.createSoundEffect(WaveShape.Sine, 5000, 1980, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
 music.play(music.createSoundEffect(WaveShape.Sawtooth, 3183, 3941, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
 game.onUpdate(function () {
     metro.ay = 350
